@@ -32,18 +32,9 @@ collections.
   </section>
 </div>
 
-## What this site is
-
-- A standalone GitHub Pages-ready site for the RISE EDR beta endpoint.
-- Plain Markdown source that can be edited directly in GitHub.
-- Static documentation: no live API calls are made while building the site.
-- Written from the USBR/RISE team perspective for users who want to
-  discover and retrieve Reclamation time-series data through OGC EDR.
-
 ## Current endpoint summary
 
-The public RISE EDR endpoint checked on June 27, 2026 advertises one
-collection:
+The public RISE EDR endpoint advertises one collection:
 
 | Field | Value |
 |---|---|
@@ -54,11 +45,10 @@ collection:
 | Advertised EDR query | `locations` |
 | Feature catalog routes | `/items`, `/items/{featureId}`, `/queryables`, `/schema` |
 
-The collection-level parameter catalog advertised 782 parameter ids when
-checked. Those ids cover reservoir operations, streamflow, meteorology,
-snow, water quality, hydropower, and biological monitoring. A location
-usually has only a subset of those parameters, so value requests should
-start small.
+The collection-level parameter catalog covers reservoir operations,
+streamflow, meteorology, snow, water quality, hydropower, and biological
+monitoring. A location usually has only a subset of those parameters, so
+value requests should start small.
 
 ## Key links
 

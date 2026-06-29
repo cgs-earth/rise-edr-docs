@@ -11,9 +11,8 @@ Bureau of Reclamation data available in RISE. From the RISE team
 perspective, the endpoint is a standards-based front door for
 time-series discovery and retrieval.
 
-The live endpoint was checked on June 27, 2026. RISE is an operational
-data system and the API is labeled beta, so re-run discovery before
-production analysis.
+RISE is an operational data system and the API is labeled beta, so
+re-run discovery before production analysis.
 
 ## 1. What the endpoint exposes
 

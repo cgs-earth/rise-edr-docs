@@ -13,9 +13,7 @@ This guide shows the same RISE EDR workflow in four toggleable forms:
 - **R (raw)**: raw `httr2` and `jsonlite` examples.
 - **edr4r**: higher-level helpers that wrap the same EDR routes.
 
-The examples use `https://data.usbr.gov/api/ogc` as the base URL. They
-were checked against the public RISE EDR beta endpoint on June 27,
-2026.
+The examples use `https://data.usbr.gov/api/ogc` as the base URL.
 
 ## 1. Set the base URL
 
@@ -505,7 +503,7 @@ The collection-level parameter catalog is global. A parameter can be
 valid for RISE but unavailable at a specific location or time. For
 example, Marys Lake returned data for parameter `3` over the example
 window, while a request for parameter `1830` over the same window
-returned `204 No Content` when checked.
+returned `204 No Content`.
 
 <div class="example-tabs" data-code-tabs>
 <div class="tab-buttons" role="tablist" aria-label="Step 6 examples">
