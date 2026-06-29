@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SITE_BASEURL="${SITE_BASEURL:-/rise-edr-docs}"
+JEKYLL_ENV="${JEKYLL_ENV:-production}"
+export JEKYLL_ENV
+
+bundle exec jekyll build \
+  --destination public \
+  --baseurl "$SITE_BASEURL"
