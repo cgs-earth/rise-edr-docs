@@ -1,0 +1,31 @@
+title: USBR RISE EDR Guide
+description: Standalone, Markdown-editable documentation for using the USBR RISE OGC API - Environmental Data Retrieval endpoint.
+url: "https://ksonda.github.io"
+baseurl: "/rise-edr-docs"
+repository: "ksonda/rise-edr-docs"
+
+theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - .github
+  - node_modules
+  - vendor
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
