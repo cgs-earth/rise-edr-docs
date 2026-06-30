@@ -10,9 +10,6 @@ Retrieval endpoint for Bureau of Reclamation time-series data at
 application developers, and partner systems a consistent way to discover
 RISE locations, inspect parameters, and request values as CoverageJSON.
 
-This site is focused only on the public RISE EDR endpoint. It does not
-cover the broader Western Water Datahub service or other provider
-collections.
 
 <div class="card-grid">
   <section class="card">
